@@ -32,6 +32,7 @@ function draw() {
   textSize(20);
   fill(255);
   textAlign(CENTER, CENTER);
+  text('Jumlah gerakan: ' + counter, width - 130, 30);
   if (high && w == 1) {
     fill(140);
   } else {
